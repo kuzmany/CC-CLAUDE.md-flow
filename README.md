@@ -7,31 +7,31 @@
 ```bash
 You: "Potrebujem e-shop"
 
-Claude: [Master → Task → Search → Coding → Data → Master]
-Result: Complete e-commerce solution in 8 hours instead of 3 weeks
+Claude: [Master → Task → Search → Coding → Data → Master]  
+Result: Complete e-commerce solution with autonomous profile switching
 ```
 
 ## 🎯 What This Is
 
 A revolutionary system that gives you **5 specialized AI experts** that automatically collaborate:
 
-- 🌐 **Master** - Universal coordinator
-- 📋 **Task** - Project management & planning
-- 🔍 **Search** - Research & information gathering  
-- 💻 **Coding** - Professional development
-- 📊 **Data** - Analytics & insights
+- 🌐 **Master** - Universal coordinator and main communication hub
+- 📋 **Task** - Project management, planning & workflow orchestration  
+- 🔍 **Search** - Advanced research & information gathering with Matrix Search™
+- 💻 **Coding** - Professional development, debugging & architecture
+- 📊 **Data** - Analytics, insights & data science workflows
 
 **Key Benefits:**
-- ✅ **5x productivity boost** - Each expert focuses on what they do best
-- ✅ **Fully autonomous** - One command = complete solution
-- ✅ **Production-ready output** - No amateur code or half-solutions
-- ✅ **Real-world tested** - Used in actual projects, not theory
+- ✅ **Autonomous operation** - Profiles switch automatically based on task needs
+- ✅ **Specialized expertise** - Each profile is optimized for specific domains
+- ✅ **Seamless collaboration** - Profiles work together without user intervention
+- ✅ **Production-ready output** - Professional-grade solutions from day one
 
-## 📦 Installation (5 minutes)
+## 📦 Installation (2 minutes)
 
 ### Prerequisites
-- Windows 11 with WSL2 (or Linux/Mac)
 - Claude Code installed (`npm install -g @anthropic-ai/claude-code`)
+- Linux/Mac/WSL environment
 
 ### Quick Setup
 
@@ -41,10 +41,11 @@ A revolutionary system that gives you **5 specialized AI experts** that automati
    cd CC-CLAUDE.md-flow
    ```
 
-2. **Run setup script**
+2. **Copy profiles to Claude directory**
    ```bash
-   chmod +x scripts/setup-profiles.sh
-   ./scripts/setup-profiles.sh
+   mkdir -p ~/.claude
+   cp profiles/CLAUDE-MASTER.md ~/.claude/CLAUDE.md
+   cp profiles/* ~/.claude/
    ```
 
 3. **Start using**
@@ -52,108 +53,126 @@ A revolutionary system that gives you **5 specialized AI experts** that automati
    claude --dangerously-skip-permissions
    ```
 
-That's it! The system is ready to use.
+The system is ready! Profiles will switch automatically as needed.
 
 ## 🎮 How to Use
 
-Just tell Claude what you need in natural language:
+The system operates through slash commands and autonomous switching:
 
+### Slash Commands (Manual Control)
+```bash
+/master   # Switch to universal coordinator profile
+/search   # Switch to advanced research profile  
+/task     # Switch to project management profile
+/coding   # Switch to professional development profile
+/data     # Switch to analytics & data science profile
+/current  # Show currently active profile
 ```
-"Create a SaaS application for project management"
-"Analyze these sales data and create a strategy"
-"Fix bugs in this React app and optimize performance"
-"Build a marketing automation system"
-```
 
-The system will automatically:
-1. Understand your goal
-2. Switch between expert profiles
-3. Create a plan
-4. Execute it
-5. Deliver complete solution
+### Autonomous Operation
+Simply describe your need - the system automatically:
+1. Analyzes requirements
+2. Switches to appropriate expert profiles
+3. Collaborates between profiles as needed
+4. Delivers complete solutions
 
-## 📊 Real Results
+## 🚀 Key Features
 
-| Project Type | Traditional Approach | With CC CLAUDE.md | Time Saved |
-|-------------|---------------------|-------------------|------------|
-| E-commerce site | 3 weeks | 8 hours | 95% |
-| Data analysis | 2 weeks | 2 days | 85% |
-| Bug fixing | Uncertain | Systematic | 70% |
-| SaaS MVP | 2 months | 1 week | 87% |
+**🧠 Matrix Search™** - Advanced 3-level research system
+- Level 1: Quick scan (0-3 seconds)
+- Level 2: Deep dive with cross-referencing  
+- Level 3: Expert analysis with source verification
+
+**⚡ Autonomous Switching** - No manual intervention needed
+- Task analysis triggers appropriate profile changes
+- Seamless handoffs between expert domains
+- Context preservation across switches
+
+**🔥 Specialized Profiles** - Each optimized for specific workflows
+- **Search**: Ultimate research tool with brutal honesty
+- **Task**: Project orchestration and quality control
+- **Coding**: Production-ready development practices
+- **Data**: Advanced analytics and visualization
 
 ## 📚 Documentation
 
-- [Quick Setup Guide](docs/QUICK_SETUP_GUIDE.md) - Get started in 5 minutes
-- [Autonomous Switching Guide](docs/AUTONOMOUS_PROFILE_SWITCHING_GUIDE.md) - How the magic works
-- [Real-World Examples](docs/Profile_Workflow_Examples.md) - See actual projects
-- [Full Documentation](docs/Claude_Profile_System_Documentation.md) - Deep dive
-- [Troubleshooting](docs/TROUBLESHOOTING_AND_CUSTOMIZATION_GUIDE.md) - Fix common issues
+- [Quick Setup Guide](docs/QUICK_SETUP_GUIDE.md) - Installation and basic usage
+- [Autonomous Switching Guide](docs/AUTONOMOUS_PROFILE_SWITCHING_GUIDE.md) - How profile switching works
+- [Profile Workflow Examples](docs/Profile_Workflow_Examples.md) - Real use cases and examples
+- [Complete System Documentation](docs/Claude_Profile_System_Documentation.md) - Full technical details
+- [Troubleshooting & Customization](docs/TROUBLESHOOTING_AND_CUSTOMIZATION_GUIDE.md) - Common issues and fixes
 
-## 🔥 Example: E-shop in 8 Hours
+## 🔥 Example Workflows
 
+### Research & Analysis
 ```bash
-Input: "I need an e-shop for handmade candles"
-
-Output:
-✅ Next.js 14 + TypeScript application
-✅ Stripe payment integration
-✅ Mobile-responsive design
-✅ SEO optimized
-✅ Analytics dashboard
-✅ Deployed on Vercel
-✅ Marketing materials included
+User: "Analyze cryptocurrency market trends for 2025"
+System: [Search] → [Data] → [Task] → [Master]
+Result: Comprehensive market analysis with predictions
 ```
 
-[See more examples →](docs/Profile_Workflow_Examples.md)
-
-## 🛠️ How It Works
-
-```mermaid
-graph LR
-    A[Your Request] --> B[Master Profile]
-    B --> C{Analyzes Need}
-    C -->|Planning| D[Task Profile]
-    C -->|Research| E[Search Profile]
-    C -->|Development| F[Coding Profile]
-    C -->|Analytics| G[Data Profile]
-    D --> H[Automatic Switching]
-    E --> H
-    F --> H
-    G --> H
-    H --> I[Complete Solution]
+### Software Development  
+```bash
+User: "Create a todo app with React and TypeScript"
+System: [Task] → [Coding] → [Search] → [Coding] → [Master]
+Result: Production-ready application with best practices
 ```
 
-## 🤝 Contributing
+### Business Planning
+```bash
+User: "Help me plan a startup launch strategy"
+System: [Search] → [Task] → [Data] → [Master]
+Result: Complete go-to-market strategy with data backing
+```
 
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+## 🛠️ System Architecture
 
-## 📄 License
+The profiles work together seamlessly:
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+User Request → Master Analysis → Expert Profile Selection → Task Execution → Results
+     ↓              ↓                      ↓                    ↓           ↓
+Autonomous     Understands       Switches to            Specialized    Complete
+Operation      Requirements      Needed Expert         Execution      Solution
+```
 
-## 🌟 Philosophy
+**Profile Flow Examples:**
+- **Complex Research**: Search → Data → Task → Master
+- **Software Project**: Task → Coding → Search → Coding → Master  
+- **Business Analysis**: Search → Data → Task → Coding → Master
 
-> "Don't give me 'maybe it could work.' Give me brutal honesty and real solutions."
+## 💡 Core Philosophy
 
-This system embodies:
-- **Brutal honesty** over polite uncertainty
-- **Practical solutions** over theoretical perfection
-- **Autonomous execution** over constant hand-holding
-- **Specialized expertise** over jack-of-all-trades
+> **"Brutal honesty over polite uncertainty. Real solutions over theoretical perfection."**
 
-## 🚀 Start Now
+**System Principles:**
+- ✅ **Autonomous operation** - Profiles switch without asking permission
+- ✅ **Specialized expertise** - Each profile masters one domain  
+- ✅ **Collaborative intelligence** - Profiles work together automatically
+- ✅ **Production focus** - Every output is ready for real-world use
+
+## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/aranej/CC-CLAUDE.md-flow.git
-cd CC-CLAUDE.md-flow
-./scripts/setup-profiles.sh
+# 1. Clone repository
+git clone https://github.com/yourusername/cc_claude.git
+cd cc_claude
+
+# 2. Install profiles  
+mkdir -p ~/.claude
+cp profiles/CLAUDE-MASTER.md ~/.claude/CLAUDE.md
+cp profiles/* ~/.claude/
+
+# 3. Start Claude Code
 claude --dangerously-skip-permissions
 ```
 
-**Your next breakthrough is one command away.**
+## 🤝 Contributing & License
+
+- **Contributing**: See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
+- **License**: MIT License - see [LICENSE](LICENSE) file for details
 
 ---
 
-Created with ❤️ by [@aranej](https://github.com/aranej) and the Claude Profiles Community
-
-⭐ Star this repo if it saves you time!
+Created with ❤️ for the Claude Code community  
+⭐ **Star this repo if it saves you time!**
