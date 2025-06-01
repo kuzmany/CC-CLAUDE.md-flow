@@ -94,13 +94,15 @@ Simply describe your need - the system automatically:
 - **Coding**: Production-ready development practices
 - **Data**: Advanced analytics and visualization
 
-## 📚 Documentation
+## 📚 Profile System Details
 
-- [Quick Setup Guide](docs/QUICK_SETUP_GUIDE.md) - Installation and basic usage
-- [Autonomous Switching Guide](docs/AUTONOMOUS_PROFILE_SWITCHING_GUIDE.md) - How profile switching works
-- [Profile Workflow Examples](docs/Profile_Workflow_Examples.md) - Real use cases and examples
-- [Complete System Documentation](docs/Claude_Profile_System_Documentation.md) - Full technical details
-- [Troubleshooting & Customization](docs/TROUBLESHOOTING_AND_CUSTOMIZATION_GUIDE.md) - Common issues and fixes
+All documentation is contained in this README. The system includes:
+
+- **5 Specialized Profiles** - Each optimized for specific tasks
+- **Autonomous Switching** - Profiles change automatically based on context
+- **Matrix Search™** - Advanced research capabilities with source verification
+- **Production Focus** - Every output is ready for real-world implementation
+- **Slash Commands** - Manual profile control when needed
 
 ## 🔥 Example Workflows
 
