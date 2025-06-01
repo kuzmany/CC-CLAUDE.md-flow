@@ -1,11 +1,11 @@
-# 🚀 CC CLAUDE.md Flow - Autonomous AI Profile System
+# 🚀 CC CLAUDE.md Flow - Autonomous AI Agent System
 
-> **Transform Claude Code from a simple assistant into a team of 5 specialized AI experts working autonomously on your projects.**
+> **Transform Claude Code from a simple assistant into a team of 5 specialized AI agents working autonomously on your projects.**
 
 ## ⚡ Quick Demo
 
 ```bash
-You: "Potrebujem e-shop"
+You: "I need an e-shop"
 
 Claude: [Master → Task → Search → Coding → Data → Master]  
 Result: Complete e-commerce solution with autonomous profile switching
@@ -13,7 +13,7 @@ Result: Complete e-commerce solution with autonomous profile switching
 
 ## 🎯 What This Is
 
-A revolutionary system that gives you **5 specialized AI experts** that automatically collaborate:
+A revolutionary system that gives you **5 specialized AI agents** that automatically collaborate:
 
 - 🌐 **Master** - Universal coordinator and main communication hub
 - 📋 **Task** - Project management, planning & workflow orchestration  
@@ -22,9 +22,9 @@ A revolutionary system that gives you **5 specialized AI experts** that automati
 - 📊 **Data** - Analytics, insights & data science workflows
 
 **Key Benefits:**
-- ✅ **Autonomous operation** - Profiles switch automatically based on task needs
-- ✅ **Specialized expertise** - Each profile is optimized for specific domains
-- ✅ **Seamless collaboration** - Profiles work together without user intervention
+- ✅ **Autonomous operation** - Agents switch automatically based on task needs
+- ✅ **Specialized expertise** - Each agent is optimized for specific domains
+- ✅ **Seamless collaboration** - Agents work together without user intervention
 - ✅ **Production-ready output** - Professional-grade solutions from day one
 
 ## 📦 Installation (2 minutes)
@@ -41,7 +41,7 @@ A revolutionary system that gives you **5 specialized AI experts** that automati
    cd CC-CLAUDE.md-flow
    ```
 
-2. **Copy profiles to Claude directory**
+2. **Copy agent configurations to Claude directory**
    ```bash
    mkdir -p ~/.claude
    cp profiles/CLAUDE-MASTER.md ~/.claude/CLAUDE.md
@@ -53,27 +53,27 @@ A revolutionary system that gives you **5 specialized AI experts** that automati
    claude --dangerously-skip-permissions
    ```
 
-The system is ready! Profiles will switch automatically as needed.
+The system is ready! Agents will switch automatically as needed.
 
 ## 🎮 How to Use
 
-The system operates through slash commands and autonomous switching:
+The system operates through slash commands and autonomous agent switching:
 
 ### Slash Commands (Manual Control)
 ```bash
-/master   # Switch to universal coordinator profile
-/search   # Switch to advanced research profile  
-/task     # Switch to project management profile
-/coding   # Switch to professional development profile
-/data     # Switch to analytics & data science profile
-/current  # Show currently active profile
+/master   # Switch to universal coordinator agent
+/search   # Switch to advanced research agent  
+/task     # Switch to project management agent
+/coding   # Switch to professional development agent
+/data     # Switch to analytics & data science agent
+/current  # Show currently active agent
 ```
 
 ### Autonomous Operation
 Simply describe your need - the system automatically:
 1. Analyzes requirements
-2. Switches to appropriate expert profiles
-3. Collaborates between profiles as needed
+2. Switches to appropriate expert agents
+3. Collaborates between agents as needed
 4. Delivers complete solutions
 
 ## 🚀 Key Features
@@ -84,25 +84,25 @@ Simply describe your need - the system automatically:
 - Level 3: Expert analysis with source verification
 
 **⚡ Autonomous Switching** - No manual intervention needed
-- Task analysis triggers appropriate profile changes
+- Task analysis triggers appropriate agent changes
 - Seamless handoffs between expert domains
 - Context preservation across switches
 
-**🔥 Specialized Profiles** - Each optimized for specific workflows
+**🔥 Specialized Agents** - Each optimized for specific workflows
 - **Search**: Ultimate research tool with brutal honesty
 - **Task**: Project orchestration and quality control
 - **Coding**: Production-ready development practices
 - **Data**: Advanced analytics and visualization
 
-## 📚 Profile System Details
+## 📚 Agent System Details
 
 All documentation is contained in this README. The system includes:
 
-- **5 Specialized Profiles** - Each optimized for specific tasks
-- **Autonomous Switching** - Profiles change automatically based on context
+- **5 Specialized Agents** - Each optimized for specific tasks
+- **Autonomous Switching** - Agents change automatically based on context
 - **Matrix Search™** - Advanced research capabilities with source verification
 - **Production Focus** - Every output is ready for real-world implementation
-- **Slash Commands** - Manual profile control when needed
+- **Slash Commands** - Manual agent control when needed
 
 ## 🔥 Example Workflows
 
@@ -129,16 +129,16 @@ Result: Complete go-to-market strategy with data backing
 
 ## 🛠️ System Architecture
 
-The profiles work together seamlessly:
+The agents work together seamlessly:
 
 ```
-User Request → Master Analysis → Expert Profile Selection → Task Execution → Results
+User Request → Master Analysis → Expert Agent Selection → Task Execution → Results
      ↓              ↓                      ↓                    ↓           ↓
 Autonomous     Understands       Switches to            Specialized    Complete
 Operation      Requirements      Needed Expert         Execution      Solution
 ```
 
-**Profile Flow Examples:**
+**Agent Flow Examples:**
 - **Complex Research**: Search → Data → Task → Master
 - **Software Project**: Task → Coding → Search → Coding → Master  
 - **Business Analysis**: Search → Data → Task → Coding → Master
@@ -148,9 +148,9 @@ Operation      Requirements      Needed Expert         Execution      Solution
 > **"Brutal honesty over polite uncertainty. Real solutions over theoretical perfection."**
 
 **System Principles:**
-- ✅ **Autonomous operation** - Profiles switch without asking permission
-- ✅ **Specialized expertise** - Each profile masters one domain  
-- ✅ **Collaborative intelligence** - Profiles work together automatically
+- ✅ **Autonomous operation** - Agents switch without asking permission
+- ✅ **Specialized expertise** - Each agent masters one domain  
+- ✅ **Collaborative intelligence** - Agents work together automatically
 - ✅ **Production focus** - Every output is ready for real-world use
 
 ## 🚀 Quick Start
@@ -160,7 +160,7 @@ Operation      Requirements      Needed Expert         Execution      Solution
 git clone https://github.com/yourusername/cc_claude.git
 cd cc_claude
 
-# 2. Install profiles  
+# 2. Install agent configurations  
 mkdir -p ~/.claude
 cp profiles/CLAUDE-MASTER.md ~/.claude/CLAUDE.md
 cp profiles/* ~/.claude/
