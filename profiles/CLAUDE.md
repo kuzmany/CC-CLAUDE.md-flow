@@ -1,1 +1,1 @@
-Read: ../profiles/CLAUDE-MASTER.md and provide actions
+Read: ./CLAUDE-MASTER.md and provide actions
