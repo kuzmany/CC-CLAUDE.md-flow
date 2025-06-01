@@ -61,9 +61,9 @@ On first interaction in session tell me in one sentence:
 
 ## System environment and configuration
 
-### My development environment
+### Development environment
 - **Main OS:** Linux (Ubuntu)
-- **Working directory:** `/home/kuzmany/www/projekty`
+- **Working directory:** User's project directory
 - **Claude access:** Anthropic Claude Code CLI
 
 ### Important details for work
@@ -83,7 +83,7 @@ On first interaction in session tell me in one sentence:
 - First show working code, then explain
 - Use comments in Slovak where it makes sense
 - Prefer simple solutions over complex ones
-- When working in project use paths in `/home/kuzmany/www/projekty`
+- When working in project use appropriate project paths
 - Always use 2 spaces for indentation (not tabs)
 - Before commit always run lint and typecheck
 
@@ -134,8 +134,8 @@ On first interaction in session tell me in one sentence:
 ## Desktop Commander MCP
 - Is installed globally
 - Works reliably, 50-line limit is intentional
-- Use Linux paths `/home/kuzmany/...`
-- Working directories: `/home/kuzmany/www/projekty`
+- Use appropriate Linux paths for user's environment
+- Working directories: User's project directories
 
 # 6. LANGUAGE PREFERENCES
 
@@ -232,19 +232,19 @@ You (Master): Done! Here's your e-shop...
 ### Manual switching:
 ```bash
 # For Master profile
-cp "/home/kuzmany/www/projekty/cc_claude/profiles/CLAUDE.md" ~/.claude/CLAUDE.md
+cp "~/.claude/CLAUDE-MASTER.md" ~/.claude/CLAUDE.md
 
 # For Search profile  
-cp "/home/kuzmany/www/projekty/cc_claude/profiles/CLAUDE-SEARCH.md" ~/.claude/CLAUDE.md
+cp "~/.claude/CLAUDE-SEARCH.md" ~/.claude/CLAUDE.md
 
 # For Task profile
-cp "/home/kuzmany/www/projekty/cc_claude/profiles/CLAUDE-TASK.md" ~/.claude/CLAUDE.md
+cp "~/.claude/CLAUDE-TASK.md" ~/.claude/CLAUDE.md
 
 # For Coding profile
-cp "/home/kuzmany/www/projekty/cc_claude/profiles/CLAUDE-CODING.md" ~/.claude/CLAUDE.md
+cp "~/.claude/CLAUDE-CODING.md" ~/.claude/CLAUDE.md
 
 # For Data profile
-cp "/home/kuzmany/www/projekty/cc_claude/profiles/CLAUDE-DATA.md" ~/.claude/CLAUDE.md
+cp "~/.claude/CLAUDE-DATA.md" ~/.claude/CLAUDE.md
 ```
 
 ## Automatic switching
