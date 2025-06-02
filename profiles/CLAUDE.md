@@ -1,1 +1,0 @@
-Read: ./CLAUDE-MASTER.md and provide actions

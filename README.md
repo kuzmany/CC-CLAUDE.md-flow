@@ -44,8 +44,8 @@ A revolutionary system that gives you **5 specialized AI agents** that automatic
 2. **Copy agent configurations to Claude directory**
    ```bash
    mkdir -p ~/.claude
-   cp profiles/CLAUDE-MASTER.md ~/.claude/CLAUDE.md
-   cp profiles/* ~/.claude/
+   cp agents/CLAUDE-MASTER.md ~/.claude/CLAUDE.md
+   cp agents/* ~/.claude/
    ```
 
 3. **Start using**
@@ -162,8 +162,8 @@ cd cc_claude
 
 # 2. Install agent configurations  
 mkdir -p ~/.claude
-cp profiles/CLAUDE-MASTER.md ~/.claude/CLAUDE.md
-cp profiles/* ~/.claude/
+cp agents/CLAUDE-MASTER.md ~/.claude/CLAUDE.md
+cp agents/* ~/.claude/
 
 # 3. Start Claude Code
 claude --dangerously-skip-permissions
