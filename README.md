@@ -1,4 +1,4 @@
-# 🚀 CC CLAUDE.md Flow - Autonomous AI Agent System
+# 🚀 Claude Code Agents - Autonomous AI Agent System
 
 > **Transform Claude Code from a simple assistant into a team of 5 specialized AI agents working autonomously on your projects.**
 
@@ -37,14 +37,13 @@ A revolutionary system that gives you **5 specialized AI agents** that automatic
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/aranej/CC-CLAUDE.md-flow.git
-   cd CC-CLAUDE.md-flow
+   git clone https://github.com/kuzmany/claude-code-agents.git
+   cd claude-code-agents
    ```
 
 2. **Copy agent configurations to Claude directory**
    ```bash
    mkdir -p ~/.claude
-   cp agents/CLAUDE-MASTER.md ~/.claude/CLAUDE.md
    cp agents/* ~/.claude/
    ```
 
@@ -157,12 +156,11 @@ Operation      Requirements      Needed Expert         Execution      Solution
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/yourusername/cc_claude.git
-cd cc_claude
+git clone https://github.com/kuzmany/claude-code-agents.git
+cd claude-code-agents
 
 # 2. Install agent configurations  
 mkdir -p ~/.claude
-cp agents/CLAUDE-MASTER.md ~/.claude/CLAUDE.md
 cp agents/* ~/.claude/
 
 # 3. Start Claude Code
