@@ -1,6 +1,6 @@
 # 🚀 Claude Code Agents - Autonomous AI Agent System
 
-> **Transform Claude Code from a simple assistant into a team of 5 specialized AI agents working autonomously on your projects.**
+> **Transform Claude Code from a simple assistant into a team of 7 specialized AI agents working autonomously on your projects.**
 
 ## ⚡ Quick Demo
 
@@ -13,13 +13,15 @@ Result: Complete e-commerce solution with autonomous profile switching
 
 ## 🎯 What This Is
 
-A revolutionary system that gives you **5 specialized AI agents** that automatically collaborate:
+A revolutionary system that gives you **7 specialized AI agents** that automatically collaborate:
 
 - 🌐 **Master** - Universal coordinator and main communication hub
 - 📋 **Task** - Project management, planning & workflow orchestration  
 - 🔍 **Search** - Advanced research & information gathering with Matrix Search™
 - 💻 **Coding** - Professional development, debugging & architecture
 - 📊 **Data** - Analytics, insights & data science workflows
+- ✍️ **Copywriter** - Marketing copy, conversion optimization & brand voice
+- 🎨 **Design** - UX/UI design, accessibility & user experience
 
 **Key Benefits:**
 - ✅ **Autonomous operation** - Agents switch automatically based on task needs
@@ -60,12 +62,14 @@ The system operates through slash commands and autonomous agent switching:
 
 ### Slash Commands (Manual Control)
 ```bash
-/master   # Switch to universal coordinator agent
-/search   # Switch to advanced research agent  
-/task     # Switch to project management agent
-/coding   # Switch to professional development agent
-/data     # Switch to analytics & data science agent
-/current  # Show currently active agent
+/master      # Switch to universal coordinator agent
+/search      # Switch to advanced research agent  
+/task        # Switch to project management agent
+/coding      # Switch to professional development agent
+/data        # Switch to analytics & data science agent
+/copywriter  # Switch to marketing copywriter agent
+/design      # Switch to UX/UI design agent
+/current     # Show currently active agent
 ```
 
 ### Autonomous Operation
@@ -92,12 +96,14 @@ Simply describe your need - the system automatically:
 - **Task**: Project orchestration and quality control
 - **Coding**: Production-ready development practices
 - **Data**: Advanced analytics and visualization
+- **Copywriter**: Conversion-focused marketing copy and brand voice
+- **Design**: User-centered design and accessibility expertise
 
 ## 📚 Agent System Details
 
 All documentation is contained in this README. The system includes:
 
-- **5 Specialized Agents** - Each optimized for specific tasks
+- **7 Specialized Agents** - Each optimized for specific tasks
 - **Autonomous Switching** - Agents change automatically based on context
 - **Matrix Search™** - Advanced research capabilities with source verification
 - **Production Focus** - Every output is ready for real-world implementation
@@ -126,6 +132,20 @@ System: [Search] → [Task] → [Data] → [Master]
 Result: Complete go-to-market strategy with data backing
 ```
 
+### Marketing Campaign
+```bash
+User: "Create converting landing page copy for our SaaS product"
+System: [Search] → [Copywriter] → [Design] → [Task] → [Master]
+Result: High-converting landing page with optimized copy and UX design
+```
+
+### Product Design
+```bash
+User: "Design a user-friendly mobile app interface"
+System: [Search] → [Design] → [Copywriter] → [Coding] → [Master]
+Result: Complete UI/UX design with microcopy and implementation guide
+```
+
 ## 🛠️ System Architecture
 
 The agents work together seamlessly:
@@ -141,6 +161,8 @@ Operation      Requirements      Needed Expert         Execution      Solution
 - **Complex Research**: Search → Data → Task → Master
 - **Software Project**: Task → Coding → Search → Coding → Master  
 - **Business Analysis**: Search → Data → Task → Coding → Master
+- **Marketing Campaign**: Search → Copywriter → Design → Task → Master
+- **Product Launch**: Task → Design → Copywriter → Data → Master
 
 ## 💡 Core Philosophy
 
