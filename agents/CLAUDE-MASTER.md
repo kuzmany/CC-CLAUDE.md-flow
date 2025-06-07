@@ -246,25 +246,25 @@ You (Master): Done! Here's your e-shop...
 ### Manual switching:
 ```bash
 # For Master profile
-cp "~/.claude/CLAUDE-MASTER.md" ~/.claude/CLAUDE.md
+cp ~/.claude/CLAUDE-MASTER.md ~/.claude/CLAUDE.md
 
 # For Search profile  
-cp "~/.claude/CLAUDE-SEARCH.md" ~/.claude/CLAUDE.md
+cp ~/.claude/CLAUDE-SEARCH.md ~/.claude/CLAUDE.md
 
 # For Task profile
-cp "~/.claude/CLAUDE-TASK.md" ~/.claude/CLAUDE.md
+cp ~/.claude/CLAUDE-TASK.md ~/.claude/CLAUDE.md
 
 # For Coding profile
-cp "~/.claude/CLAUDE-CODING.md" ~/.claude/CLAUDE.md
+cp ~/.claude/CLAUDE-CODING.md ~/.claude/CLAUDE.md
 
 # For Data profile
-cp "~/.claude/CLAUDE-DATA.md" ~/.claude/CLAUDE.md
+cp ~/.claude/CLAUDE-DATA.md ~/.claude/CLAUDE.md
 
 # For Copywriter profile
-cp "~/.claude/CLAUDE-COPYWRITER.md" ~/.claude/CLAUDE.md
+cp ~/.claude/CLAUDE-COPYWRITER.md ~/.claude/CLAUDE.md
 
 # For Design profile
-cp "~/.claude/CLAUDE-DESIGN.md" ~/.claude/CLAUDE.md
+cp ~/.claude/CLAUDE-DESIGN.md ~/.claude/CLAUDE.md
 ```
 
 ## Automatic switching

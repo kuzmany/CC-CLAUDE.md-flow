@@ -238,19 +238,19 @@ You (Coding): Implementing product endpoints...
 ### Manual switching:
 ```bash
 # For Master agent
-cp "~/.claude/CLAUDE-MASTER.md" ~/.claude/CLAUDE.md
+cp ~/.claude/CLAUDE-MASTER.md ~/.claude/CLAUDE.md
 
 # For Search agent  
-cp "~/.claude/CLAUDE-SEARCH.md" ~/.claude/CLAUDE.md
+cp ~/.claude/CLAUDE-SEARCH.md ~/.claude/CLAUDE.md
 
 # For Task agent
-cp "~/.claude/CLAUDE-TASK.md" ~/.claude/CLAUDE.md
+cp ~/.claude/CLAUDE-TASK.md ~/.claude/CLAUDE.md
 
 # For Coding agent
-cp "~/.claude/CLAUDE-CODING.md" ~/.claude/CLAUDE.md
+cp ~/.claude/CLAUDE-CODING.md ~/.claude/CLAUDE.md
 
 # For Data agent
-cp "~/.claude/CLAUDE-DATA.md" ~/.claude/CLAUDE.md
+cp ~/.claude/CLAUDE-DATA.md ~/.claude/CLAUDE.md
 ```
 
 ## Automatic switching
